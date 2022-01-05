@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.alldiv {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 0;
+background-color:rgb(255, 255, 255);
+
+}
+
+.alldiv:after {
+    content: '';
+    display: table;
+    clear: both;
+    /* sağdan soldan her yerden verilen float ların birbirini etkilememesini sağladık. */
+}
+
+.left {
+    float: left;
+    width: 48%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+   
+}
+
+.card-left {
+    padding: 20px;
+    background-color: rgba(113, 134, 134, 0.966);
+    margin-top: 50px;
+    width: 100%;
+}
+
+.card-right {
+    padding: 20px;
+    background-color: rgba(113, 134, 134, 0.966);
+    margin-top: 50px;
+    float: left;
+}
+.text2{
+margin: 50px;
+display: block;
+position: relative;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.yoga {
+    margin-left: 3%;
+    margin-right: 3%;
+    border: 0.2px solid white;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 3%;
+    padding-bottom: 3.5%;
+   background: linear-gradient();
+
+    
+}
+.yoga h2 {
+ color: white;
+
+}
+.yoga h5 {
+    color: white;
+text-align: center;
+}
+    
+
+.yoga img {
+
+    width: 800px !important;
+    height: 400px !important;
+
+    border: 1px solid rgb(141, 132, 115);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 8px rgba(101, 107, 74, 0.637);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(12, 39, 39);
+}
+
+a:hover {
+    color: white;
+}
+
+
+
+.text {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgb(128, 168, 162);
+    text-align: center;
+
+}
+
+
+.text:hover {
+    box-shadow: 1px 1px 3px 3px rgb(36, 89, 100);
+}
+
+
+
+#submit {
+    position:absolute;
+    color: antiquewhite;
+    left: 310px;
+    top: 5px;
+    width: 50px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: rgb(9, 110, 9);
+}
+
+#submit:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 3px rgb(63, 116, 126);
+}
+
+#submit:active {
+    background-color: rgb(96, 119, 54);
+}
+
+#drop {
+    color: antiquewhite;
+    position: absolute;
+    left: 370px;
+    top: 5px;
+    height: 35px;
+    width: 130px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(12, 64, 77);
+}
+
+#drop:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 3px rgb(63, 116, 126);
+}
+
+#drop:active {
+    background-color: rgb(96, 119, 54);
+}
+
+
+
+.paragraf-style {
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(14, 8, 1);
+    font-size: 25px;
+    background-color: rgb(133, 141, 97);
+    transition: 1000ms;
+}
+
+.paragraf-style:hover {
+    background-color: rgb(78, 55, 11);
+}
+
+
+
+ #birinci  {
+  width: 50%;
+ position:static;
+ float:right;
+
+ }
+.yazı{
+   
+    color: black;
+}
+
+ #ikinci{
+    width: 50%;
+    position:static;
+    float:left;
+ }
+ #üçüncü{
+    width: 50%;
+    position:static;
+    float:right;
+ }
+ 
