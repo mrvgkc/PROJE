@@ -1,0 +1,202 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+#logo {
+    padding-left: 20px;
+}
+
+.btn-group {
+    padding-right: 20px;
+}
+
+.btn-group a {
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    color: black;
+}
+
+.sectionBody{
+    width: 100%;
+    display:flex;
+  
+}
+
+
+#mainCaption{
+    height: 500px;
+    background:linear-gradient(#e7e018,#66b3ff,#04fb98,palevioletred);
+    width: 100%;
+    padding: 25px;
+   text-align: center;
+    background-size:cover;
+
+}
+
+#mainCaption h1{
+ text-align: center;
+ margin: 100px;
+ font-size: 90px;
+}
+.sectionBody.container{
+    justify-content: space-between; /*içerikler arasındakibosuğun olmamasını istiyoruz.*/
+   
+}
+
+.sectionHeader{
+    background: rgb(32, 32, 44);
+    border-bottom: 6px solid black;
+    height: 60px;
+    color: white;
+    line-height: 60px;
+    font-size: 24px;
+    padding: 5px 40px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    width: 100%;
+
+}
+.sectionArea{
+    padding: 80px 0px;
+    
+}
+
+.zoom{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+.zoom img{
+display: block; /*iteme inline block deyip buna block dedik çünkü zoom özelliğini de kapsasın istiyoruz*/
+width: 100%;
+height: auto;
+transition: all .5s ease;
+
+}
+
+.item .itemText{
+text-align: center;
+padding: 5px;
+border:1px solid black;
+}
+.item:hover .zoom img{
+  transform: scale(1.25);  
+}
+h3{
+    font-size: 16px;
+    color:black;
+    transition: all .5s ease;
+   
+}
+.item:hover h3{
+    color: rgb(247, 242, 242);
+    color: black;
+}
+.item:hover .itemText{
+    background:darkgray;
+    color: #19334d;
+    transition: all .5s ease; 
+}
+
+.itemText {
+    background-color:tomato;
+}
+.itemText p{
+    margin: 20px 0;
+}
+.container1{
+    width: 100%;
+    background-color:rgb(235, 214, 27);
+    padding: 20px;
+    flex-grow: 1; /*sütun uzunlukları bırbırıne esit olsun*/
+   
+    
+    }
+.container2{
+   background-color:cornflowerblue;
+    width: 50%;
+    padding: 20px;
+    flex-grow: 1; /*sütun uzunlukları bırbırıne esit olsun*/
+  
+}
+.sectionTop{
+    text-align: center;
+   
+}
+
+.container3{
+    background-color:springgreen;
+    width: 50%;
+    padding: 20px;
+    flex-grow: 1; /*sütun uzunlukları bırbırıne esit olsun*/
+    
+}
+.container4{
+    background-color:palevioletred;
+    width: 50%;
+    padding: 20px;
+   
+    flex-grow: 1; /*sütun uzunlukları bırbırıne esit olsun*/
+}
+
+.card1 p{
+    text-align: justify;
+    font-weight: bold;
+}
+.card1 a:hover{
+    color: darkgray;
+    font-weight: bold;
+
+}
+.card1 a:active {
+    color: purple;}
+
+.card1 a{
+    font-weight: bold;
+    color:rgb(15, 54, 32);
+}
+
+
+h1 {
+    padding-top: 70px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+     background-color: #6adb82;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+ 
+  }
+
+
+  input[type=text]:focus {
+    border: 3px solid #555;
+    background-color: rgb(238, 141, 124);
+    width: 100%;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #2e312e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
